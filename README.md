@@ -4,15 +4,11 @@ Deployed Website: [tubseyinnit.github.io](https://tubseyinnit.github.io/test-rep
 
 ## User Experience (UX)
 
+
+
 ### Initial Discussion
 
- The goal of the project N is to create a website for a local employer. Nicola would like a website to provide information on her services . The goal of this website is to give  our users a clear understanding of what  service are available and what she can do to help clients. My goal is to generate as many new clients as possible for Nicola.
 
- #### Key information for the site:
-
- * Project N is the winning entry in Shipley College's T level competition.
- * The winning entry was by Tobey.
- * The website is going to be developed over summer by Tobey and also Mohammed, who came second in the competition.
 
 ### User Stories
 
