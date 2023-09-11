@@ -115,7 +115,13 @@ The W3C validator was used to validate the HTML and CSS pages.
 * [HTML Validation](https://validator.w3.org/nu/?doc=https%3A%2F%2Fshipleysteve.github.io%2F)
 * [CSS Validation](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fshipleysteve.github.io%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
+### Known Bugs
 
+Warning: Section lacks heading. Consider using h2-h6 elements to add identifying headings to all sections, or else use a div element instead for any cases where no heading is needed.
+
+From line 42, column 3; to line 42, column 57
+
+=== -->↩  <section id="topbar" class="d-flex align-items-center">↩    <
 
 ### Fixed Bugs
 
