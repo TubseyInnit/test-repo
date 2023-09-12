@@ -9,13 +9,15 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-:root {
-  --color: #2592C9;
-  --body-bg: #FFFFFF;
-  --body-color: #000000;
-  --body-pop: #fff;
+@media (prefers-color-scheme: light) {
+  :root {
+    --color: #2592C9;
+    --body-bg: #FFFFFF;
+    --body-color: #000000;
+    --body-pop: #fff;
+  }
 }
-/*
+
 @media (prefers-color-scheme: dark) {
    :root {
     --color: #2592C9;
@@ -23,7 +25,7 @@
     --body-color: #FFFFFF;
     --body-pop: #575757;
    }
-}*/
+}
 
 body {
   font-family: "Open Sans", sans-serif;
