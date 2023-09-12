@@ -13,8 +13,9 @@
   --color: #2592C9;
   --body-bg: #FFFFFF;
   --body-color: #000000;
+  --body-pop: #fff;
 }
-
+/*
 @media (prefers-color-scheme: dark) {
    :root {
     --color: #2592C9;
@@ -22,7 +23,7 @@
     --body-color: #FFFFFF;
     --body-pop: #575757;
    }
-}
+}*/
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -194,11 +195,11 @@ h6 {
   transition: 0.3s;
 }
 
-.navbar a i,
+.navbar a i button,
 .navbar a:focus i {
-  font-size: 12px;
+  font-size: 21px;
   line-height: 0;
-  margin-left: 5px;
+  margin-left: 0px;
 }
 
 .navbar a:hover,
@@ -221,6 +222,24 @@ h6 {
 
 .navbar .getstarted:hover,
 .navbar .getstarted:focus:hover {
+  background: var(--color);
+  color: #fff;
+}
+
+.navbar .toggledarkmode,
+.navbar .toggledarkmode:focus {
+  color: var(--body-color);
+  padding: 8px 25px;
+  margin-left: 30px;
+  border-radius: 4px;
+  border: 2px solid var(--body-color);
+  transition: 0.3s;
+  font-size: 14px;
+  background-color: var(--body-bg)
+}
+
+.navbar .toggledarkmode:hover,
+.navbar .toggledarkmode:focus:hover {
   background: var(--color);
   color: #fff;
 }
