@@ -11,16 +11,28 @@
 --------------------------------------------------------------*/
 :root {
   --color: #2592C9;
+  --body-bg: #FFFFFF;
+  --body-color: #000000;
+}
+
+@media (prefers-color-scheme: dark) {
+   :root {
+    --color: #2592C9;
+    --body-bg: #393939;
+    --body-color: #FFFFFF;
+    --body-pop: #575757;
+   }
 }
 
 body {
   font-family: "Open Sans", sans-serif;
-  color: #444444;
+  color: var(--body-color);
+  background-color: var(--body-bg);
 }
 
 a {
   text-decoration: none;
-  color: var(--color);
+  color: var(--body-color);
 }
 
 a:hover {
@@ -74,7 +86,7 @@ h6 {
 # Top Bar
 --------------------------------------------------------------*/
 #topbar {
-  background: #fbfbfb;
+  background: var(--body-bg);
   font-size: 15px;
   height: 40px;
   padding: 0;
@@ -82,7 +94,7 @@ h6 {
 
 #topbar .contact-info a {
   line-height: 0;
-  color: #444444;
+  color: var(--body-color);
   transition: 0.3s;
 }
 
@@ -101,7 +113,7 @@ h6 {
 }
 
 #topbar .social-links a {
-  color: #6f6f6f;
+  color: var(--body-color);
   padding: 4px 12px;
   display: inline-block;
   line-height: 1px;
@@ -116,7 +128,7 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: #fff;
+  background: var(--body-bg);
   transition: all 0.5s;
   z-index: 997;
   height: 70px;
@@ -177,7 +189,7 @@ h6 {
   justify-content: space-between;
   padding: 10px 0 10px 30px;
   font-size: 15px;
-  color: #222222;
+  color: var(--body-color);
   white-space: nowrap;
   transition: 0.3s;
 }
@@ -244,7 +256,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: var(--color);
+  color: var(--body-color);
 }
 
 .navbar .dropdown:hover>ul {
@@ -559,7 +571,7 @@ section {
 }
 
 .section-bg {
-  background-color: #f8fcf9;
+  background-color: var(--body-bg);
 }
 
 .section-title {
@@ -601,7 +613,7 @@ section {
 .section-title p {
   margin-bottom: 0;
   font-size: 14px;
-  color: #919191;
+  color: var(--body-color);
 }
 
 /*--------------------------------------------------------------
@@ -609,6 +621,7 @@ section {
 --------------------------------------------------------------*/
 .featured-services {
   padding: 20px 0;
+  background-color: var(--body-pop)
 }
 
 .featured-services .icon-box {
@@ -635,7 +648,7 @@ section {
 }
 
 .featured-services .title a {
-  color: #222222;
+  color: var(--body-color);
   transition: 0.3s;
 }
 
@@ -673,6 +686,7 @@ section {
 
 .about .content p:last-child {
   margin-bottom: 0;
+  color: var(--body-color)
 }
 
 /*--------------------------------------------------------------
@@ -756,7 +770,7 @@ section {
   text-align: center;
   padding: 70px 20px 80px 20px;
   transition: all ease-in-out 0.3s;
-  background: #fff;
+  background: var(--body-pop);
   box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.1);
 }
 
@@ -795,7 +809,7 @@ section {
 }
 
 .services .icon-box h4 a {
-  color: #222222;
+  color: var(--body-color);
   transition: ease-in-out 0.3s;
 }
 
@@ -1131,7 +1145,7 @@ section {
   margin-bottom: 20px;
   box-shadow: 0px 0px 12px 0px rgba(34, 34, 34, 0.07);
   padding: 30px 20px;
-  background: #fff;
+  background: var(--body-pop);
 }
 
 .team .member img {
@@ -1184,7 +1198,7 @@ section {
   border-top: 3px solid var(--color);
   border-bottom: 3px solid var(--color);
   padding: 30px;
-  background: #fff;
+  background: var(--body-bg);
   width: 100%;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
@@ -1195,7 +1209,7 @@ section {
   float: left;
   width: 44px;
   height: 44px;
-  background: #eaf6ed;
+  background: var(--body-bg);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1208,14 +1222,14 @@ section {
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #222222;
+  color: var(--body-color);
 }
 
 .contact .info p {
   padding: 0 0 10px 60px;
   margin-bottom: 20px;
   font-size: 14px;
-  color: #555555;
+  color: var(--body-color);
 }
 
 .contact .info .social-links {
@@ -1254,7 +1268,7 @@ section {
   border-top: 3px solid var(--color);
   border-bottom: 3px solid var(--color);
   padding: 30px;
-  background: #fff;
+  background: var(--body-bg);
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
 
