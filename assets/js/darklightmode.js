@@ -48,12 +48,9 @@ function set_lightmode() {
 }
 
 function toggleDarkmode() {
-	console.log(toggle)
 	if (toggle == true) {
-		console.log("Lightmode")
 		set_lightmode()
 	} else {
-		console.log("Darkmode")
 		set_darkmode()
 	}
 }
