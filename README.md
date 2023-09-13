@@ -1,4 +1,4 @@
-![image](https://github.com/TubseyInnit/test-repo/assets/121963170/66c08ef4-14e3-43b7-a154-3db01574e3af)
+https://ui.dev/amiresponsive?url=https://tubseyinnit.github.io/test-repo/
 
 # test-repo
 
