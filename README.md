@@ -80,7 +80,7 @@ It was ensured that the website is accessible and as user-friendly as possible. 
 
 ### Languages Used
 
- HTML and CSS were used for this project.
+ HTML, JavaScript and CSS were used for this project.
 
 ### Frameworks, Libraries & Programs Used
 
